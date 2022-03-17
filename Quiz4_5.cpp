@@ -11,7 +11,7 @@ void radixSort(int *arr, int n, int max) {
     /*
     F(n)= max*(n+10)
     Complejidad = O(n)
-    El loop invariant = Antes de entrar al ciclo for, el los digitos del arreglo se encuentran ordenados desde 0 hasta i-1 digitos.
+    El loop invariant = Antes de entrar al primer ciclo for, el los digitos del arreglo se encuentran ordenados desde 0 hasta i-1 digitos.
     */
 
    int i, j, m, p = 1, index, temp, count = 0; //2t
